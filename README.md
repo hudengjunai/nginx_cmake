@@ -6,3 +6,8 @@
 - simpilify the code structure.
 - quickly to debug code with clion-ide or gdb.
 
+# branch
+
+- main branch for macos build 
+- linux branch for linux docker build
+

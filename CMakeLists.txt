@@ -147,6 +147,6 @@ find_library(PCRE216 pcre2-16)
 find_library(PCRE28 pcre2-8)
 find_library(PCREPOSIX pcre2-posix)
 target_link_libraries(nginx PRIVATE ${PCRE2} ${PCRE232} ${PCRE216} ${PCRE28} ${PCREPOSIX})
-target_link_libraries(nginx PRIVATE dl)
+target_link_libraries(nginx PRIVATE dl pthread)
 #target_link_libraries(nginx PRIVATE ../pcre-8.41/libpcre.a)
 

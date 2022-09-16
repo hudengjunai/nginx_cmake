@@ -78,7 +78,7 @@ set(SOURCE_FILES
 	src/os/unix/ngx_user.c
 	src/os/unix/ngx_dlopen.c
 	src/os/unix/ngx_process_cycle.c
-	src/os/unix/ngx_linux.c
+	src/os/unix/ngx_linux_init.c
 	src/event/modules/ngx_epoll_module.c
 	src/os/unix/ngx_linux_sendfile_chain.c
 	src/core/ngx_regex.c

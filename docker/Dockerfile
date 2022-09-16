@@ -7,4 +7,4 @@ RUN git clone --depth 1 --branch linux https://github.com/hudengjunai/nginx_cmak
 RUN cd /opt/nginx &&  \ 
     ./auto/configure  --with-pcre=/opt/vcpkg/installed/x64-linux/ && \
     cmake -S . -B build && \ 
-    cmake --build --target nginx
+    cmake --build ./build --target nginx
